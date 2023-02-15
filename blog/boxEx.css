@@ -1,0 +1,18 @@
+#block{
+    display: block;
+    background-color: blue;
+    width: 500px;
+    height: 100px;
+}
+#inline{
+    display: inline;
+    background-color: aquamarine;
+    width: 500px;
+    height: 100px;
+}
+#inline-block{
+    display: inline-block;
+    background-color: blueviolet;
+    width: 500px;
+    height: 100px;
+}
