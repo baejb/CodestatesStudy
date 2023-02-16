@@ -22,6 +22,7 @@ body{
     /* background-color: rgb(184,183,175); */
     /* background-image: url(./table.jpg); */
     /* background-size:cover; */
+    background-color: skyblue;
 }
 .calculator {
     display: flex;
