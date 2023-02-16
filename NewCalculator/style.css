@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'WandohopeR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'WandohopeR';
+    color: #000;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: rgb(184,183,175); */
+    /* background-image: url(./table.jpg); */
+    /* background-size:cover; */
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    flex-grow: 1;
+    background-color: rgb(24,72,104);
+    border-radius: 10%;
+    padding: 20px;
+    box-shadow: 8px 8px #143d58;
+    
+}
+#display{
+    flex-grow:2;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    
+}
+#show{
+    background-color: #f3f7ff;
+    text-align: right;
+    font-size:40px;
+    padding:10px;
+    margin:15px;
+    margin-top:30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px hsl(203, 63%, 14%);
+
+
+}
+#undo{
+    flex-grow:1;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#numberboard{
+    flex-grow:7;
+    display: flex;
+    flex-direction: column;
+}
+.board{
+    flex-grow:1;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.sign{
+    width:65px;
+    padding:5px;
+    margin:5px;
+    flex-grow: 1;
+    /* background-color: rgb(24,72,104); */
+    border-radius: 10%;
+    font-size:22px;
+    /* box-shadow: 6px 6px hsl(203, 63%, 14%); */
+    box-shadow: 5px 5px #e63030ca;    
+    background-color: hsl(0, 0%, 88%);
+    transition-duration: 0.3s;
+}
+.number{
+    width:65px;
+    padding:5px;
+    margin:5px;
+    flex-grow: 1;
+    background-color:rgb(243,243,218) ;
+    border-radius: 10%;
+    font-size:22px;
+    /* box-shadow: 6px 6px hsl(203, 63%, 14%); */
+    box-shadow: 5px 5px #e63030ca;
+    transition-duration: 0.3s;
+}
+#fifth{
+    margin-bottom: 10px;
+}
+
+button:active{
+    margin-left:7px;
+    margin-top:7px;
+    box-shadow: none;
+    /* background-color: hsl(205, 66%, 82%); */
+}
+#undobtn{
+    flex-grow:1;
+}
+#codestates{
+    flex-grow:1;
+}
+#codestates{
+    font-size:28px;
+    text-align: left;
+    margin:10px;
+    color:#bbbbbb;
+    text-shadow: 3px 3px black;
+}
+#delete{
+    display: block;
+    padding-top:5px;
+}
+button:hover{
+    background-color: hwb(16 0% 0% / 0.944);
+}
